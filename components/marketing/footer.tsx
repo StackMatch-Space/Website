@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const footerLinks = [
-  { href: "#", label: "Privacy Policy" },
-  { href: "#", label: "Terms of Service" },
-  { href: "#", label: "Contact" },
-  { href: "#", label: "Twitter / X" },
-  { href: "#", label: "LinkedIn" },
+  // { href: "#", label: "Privacy Policy" },
+  // { href: "#", label: "Terms of Service" },
+  // { href: "#", label: "Contact" },
+  // { href: "#", label: "Twitter / X" },
+  // { href: "#", label: "LinkedIn" },
 ] as const;
 
 export function MarketingFooter() {

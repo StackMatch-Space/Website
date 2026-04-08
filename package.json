@@ -2,6 +2,13 @@
   "name": "stackmatch-website",
   "version": "0.1.0",
   "private": true,
+  "stackmatchDeployment": {
+    "vercel": {
+      "frameworkPreset": "Next.js",
+      "outputDirectory": "",
+      "note": "Output Directory must be blank. Next.js outputs to .next internally; public/ is for static assets only."
+    }
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
